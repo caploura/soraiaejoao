@@ -1,0 +1,51 @@
+.burger {
+    position: fixed;
+    top: 3rem;
+    right: 3rem;
+    font-size: 2rem;
+    z-index: 999;
+}
+
+.navMenu {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: darkcyan;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.navMenuOpen {
+    animation: open-anim 0.2s ease-in forwards;
+}
+
+.navMenuClose {
+    animation: close-anim 0.2s ease both;
+}
+
+@keyframes open-anim {
+    0% {
+        width: 100vw;
+        height: 0;
+    }
+    100% {
+        width: 100vw;
+        height: 100vh;
+        border-radius: 0;
+    }
+}
+
+@keyframes close-anim {
+    0% {
+        width: 100vw;
+        height: 100vh;
+    }
+    100% {
+        width: 100vw;
+        height: 0;
+    }
+}
