@@ -6,7 +6,7 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 
   display: block;
-  max-width: max(60rem, 100%);
+  max-width: min(60rem, 100%);
   margin-left: auto !important;
   margin-right: auto !important;
   background-color: #f6f6f6;
