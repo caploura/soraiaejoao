@@ -1,0 +1,154 @@
+@keyframes open-anim {
+  0% {
+    width: 0;
+    height: 100vh;
+  }
+  100% {
+    width: 100vw;
+    height: 100vh;
+  }
+}
+
+@keyframes close-anim {
+  0% {
+    width: 100vw;
+    height: 100vh;
+  }
+  100% {
+    width: 0;
+    height: 100vh;
+  }
+}
+
+.burger {
+  position: fixed;
+  top: 3rem;
+  right: 3rem;
+  font-size: 2rem;
+  z-index: 1000;
+  cursor: pointer;
+}
+
+.burgerOpened {
+  filter: invert(100%);
+}
+
+.navMenu {
+  position: absolute;
+  background-color: black;
+  top: 0;
+  right: 0;
+  z-index: 999;
+  overflow: hidden !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navMenuClosed {
+  display: none;
+}
+
+.navMenuOpen {
+  animation: open-anim 0.2s ease-in forwards;
+}
+
+.navMenuClose {
+  animation: close-anim 0.2s ease forwards;
+}
+
+.menuItem {
+  text-decoration: none;
+  z-index: inherit;
+}
+
+.menuItems {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  font-family: 'Ibarra Real Nova', serif;
+  font-size: clamp(1.5rem, 8vw, 3rem);
+  z-index: 500;
+  color: white;
+}
+
+.menuItems:hover > .menuItem {
+  opacity: 0.6;
+}
+
+.menuItems:hover > .menuItem:hover {
+  opacity: 1;
+}
+
+.menuBackgroundPattern {
+  background-image: radial-gradient(
+    rgba(255, 255, 255, 0.1) 9%,
+    transparent 9%
+  );
+  background-position: 0% 0%;
+  background-size: 3vmin 3vmin;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100vh;
+  width: 100vw;
+  z-index: 11;
+  transition: opacity 800ms ease, background-size 800ms ease,
+    background-position 800ms ease;
+}
+
+.menuItems:hover ~ .menuBackgroundPattern {
+  background-size: 1.5vmin 1.5vmin;
+  opacity: 0.8;
+}
+
+.menuBackgroundImage {
+  background-image: url('../../public/images/nav-menu/dummy-couple-beach.jpg');
+  background-position: center 40%;
+  background-size: 120vmax;
+  height: 100%;
+  left: 0px;
+  opacity: 0.15;
+  position: absolute;
+  top: 0px;
+  transition: opacity 800ms linear, background-size 800ms ease,
+    background-position 800ms ease;
+  width: 100%;
+  z-index: 10;
+}
+
+.menuItems:hover ~ .menuBackgroundImage {
+  background-size: 100vmax;
+}
+
+.navMenu-0 > .menuBackgroundPattern {
+  background-position: 0% -25%;
+}
+
+.navMenu-1 > .menuBackgroundPattern {
+  background-position: 0% -50%;
+}
+
+.navMenu-2 > .menuBackgroundPattern {
+  background-position: 0% -75%;
+}
+
+.navMenu-3 > .menuBackgroundPattern {
+  background-position: 0% -100%;
+}
+
+.navMenu-0 > .menuBackgroundImage {
+  background-position: center 45%;
+}
+
+.navMenu-1 > .menuBackgroundImage {
+  background-position: center 60%;
+}
+
+.navMenu-2 > .menuBackgroundImage {
+  background-position: center 75%;
+}
+
+.navMenu-3 > .menuBackgroundImage {
+  background-position: center 90%;
+}
