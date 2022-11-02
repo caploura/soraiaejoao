@@ -6,7 +6,7 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 
   display: block;
-  max-width: 60rem;
+  max-width: max(60rem, 100%);
   margin-left: auto !important;
   margin-right: auto !important;
   background-color: #f6f6f6;
@@ -34,6 +34,12 @@ section {
 
 h1, h2, h3, h4, h5, h6 {
   color: var(--primary-color);
+}
+
+@media screen and (min-width: 59rem) {
+  .burger {
+    display: none;
+  }
 }
 
 /* @media (prefers-color-scheme: dark) {
