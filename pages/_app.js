@@ -1,10 +1,11 @@
 import '../styles/globals.css'
-import Navigation from '../components/navigation/navigation';
+// import Navigation from '../components/navigation/navigation';
+import Menu from '../components/menu/menu';
 
 function MyApp({ Component, pageProps }) {
   return (
     <div>
-      <Navigation/>
+      <Menu/>
       <Component {...pageProps} />
     </div>
   )

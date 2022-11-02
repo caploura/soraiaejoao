@@ -1,0 +1,40 @@
+.title {
+  text-align: center;
+  margin-top: 3rem;
+  font-family: garamond-premier-pro-display;
+  font-weight: 400;
+  font-size: 3rem;
+  line-height: 72px;
+  letter-spacing: 2px;
+}
+
+.navigationContainer {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.line {
+  border: 0;
+  border-bottom: 1px solid #bbb;
+  width: 10rem;
+}
+
+.menuItem {
+  padding: 1rem;
+  border-radius: 3px;
+  transition: all 30ms ease-in;
+  color: var(--primary-color);
+}
+
+.menuItem:hover,
+.activeMenu {
+  opacity: 1;
+  font-weight: 400;
+  text-decoration: underline;
+}
+
+.nonActiveMenu {
+  opacity: 0.5;
+}

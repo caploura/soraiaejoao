@@ -1,9 +1,8 @@
-import styles from './home.module.css';
+import styles from './stay.module.css';
 
 export default function HomePage() {
   return (
     <section>
-       
     </section>
   );
 }
