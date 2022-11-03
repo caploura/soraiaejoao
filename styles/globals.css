@@ -6,11 +6,12 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 
   display: block;
-  max-width: min(100%, 60rem);
+  width: 95%;
+  max-width: 60rem;
   margin-left: auto !important;
   margin-right: auto !important;
-  background-color: #f6f6f6;
   overflow-x: hidden !important;
+  background-color: #f6f6f6;
 }
 
 a {
