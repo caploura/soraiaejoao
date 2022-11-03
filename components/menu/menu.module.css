@@ -38,3 +38,9 @@
 .nonActiveMenu {
   opacity: 0.5;
 }
+
+@media (max-width: 60rem) {
+  .line {
+    display: none;
+  }
+}
