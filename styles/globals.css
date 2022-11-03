@@ -3,9 +3,6 @@
 html,
 body {
   padding: 0;
-  margin: 1.5rem;
-  /* font-family: FreeMono, monospace, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif; */
   font-family: 'Proxima Nova', Arial, Helvetica, sans-serif;
 
   display: block;
@@ -43,8 +40,8 @@ section {
 } */
 
 @media screen and (min-width: 59rem) {
-  .burger {
-    display: none;
+  body {
+    margin: 1.5rem;
   }
 }
 
