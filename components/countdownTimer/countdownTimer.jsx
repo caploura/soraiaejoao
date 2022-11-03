@@ -14,43 +14,43 @@ function calcDiff(currentDateTime, futureDateTime) {
 
   return (
     <div className={styles.countdown}>
-      <div className={styles.countdownItem}>
+      <div className={`${styles.countdownItem} ${styles.text}`}>
         <div>{months.toString().padStart(2, '0').padStart(2, '0')}</div>
-        <div style={{ color: 'white' }} className="commentFontStyle">
+        <div>
           Meses
         </div>
       </div>
-      <div className={styles.countdownItem}>
+      <div className={`${styles.countdownItem} ${styles.text}`}>
         <div>:</div>
       </div>
-      <div className={styles.countdownItem}>
+      <div className={`${styles.countdownItem} ${styles.text}`}>
         <div>{days.toString().padStart(2, '0')}</div>
         <div style={{ color: 'white' }} className="commentFontStyle">
           Dias
         </div>
       </div>
-      <div className={styles.countdownItem}>
+      <div className={`${styles.countdownItem} ${styles.text}`}>
         <div>:</div>
       </div>
-      <div className={styles.countdownItem}>
+      <div className={`${styles.countdownItem} ${styles.text}`}>
         <div>{hrs.toString().padStart(2, '0')}</div>
         <div style={{ color: 'white' }} className="commentFontStyle">
           Horas
         </div>
       </div>
-      <div className={styles.countdownItem}>
+      <div className={`${styles.countdownItem} ${styles.text}`}>
         <div>:</div>
       </div>
-      <div className={styles.countdownItem}>
+      <div className={`${styles.countdownItem} ${styles.text}`}>
         <div>{mins.toString().padStart(2, '0')}</div>
         <div style={{ color: 'white' }} className="commentFontStyle">
           Minutos
         </div>
       </div>
-      <div className={styles.countdownItem}>
+      <div className={`${styles.countdownItem} ${styles.text}`}>
         <div>:</div>
       </div>
-      <div className={styles.countdownItem}>
+      <div className={`${styles.countdownItem} ${styles.text}`}>
         <div>{secs.toString().padStart(2, '0')}</div>
         <div style={{ color: 'white' }} className="commentFontStyle">
           Segundos
@@ -80,7 +80,11 @@ const CountdownTimer = () => {
 
   const diff = calcDiff(new Date(), weddingDate);
 
-  return diff;
+  return (
+    <div>
+      <h3 className={styles.countdownTitle}>Faltam</h3> {diff}
+    </div>
+  );
 };
 
 export default CountdownTimer;

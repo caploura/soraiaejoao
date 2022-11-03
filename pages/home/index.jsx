@@ -5,8 +5,8 @@ export default function HomePage() {
   return (
     <section className={styles.homeContainer}>
       <div>
-        <h1>19 de Maio, 2023</h1>
-        <h3>Quinta da Bichinha</h3>
+        <h1 className={styles.title}>19 de Maio, 2023</h1>
+        <h3 className={styles.subTitle}>Quinta da Bichinha</h3>
       </div>
       <CountdownTimer />
     </section>

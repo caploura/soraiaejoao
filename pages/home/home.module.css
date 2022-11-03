@@ -30,13 +30,13 @@
   margin-top: auto;
 }
 
-.homeContainer > div > h1 {
+.title{
   padding: 0;
   margin: 0;
   font-weight: 100;
 }
 
-.homeContainer > div > h3 {
+.subTitle {
   padding-top: 1rem;
   margin: 0;
   font-weight: 100;
