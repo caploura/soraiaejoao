@@ -71,7 +71,7 @@ const CountdownTimer = () => {
   const diff = calcDiff(new Date(), weddingDate);
 
   return (
-    <div>
+    <div className={styles.container}>
       <h3 className={styles.countdownTitle}>Faltam</h3> {diff}
     </div>
   );

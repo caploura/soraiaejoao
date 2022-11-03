@@ -8,7 +8,7 @@ export default function HomePage() {
         <h1 className={styles.title}>19 de Maio, 2023</h1>
         <h3 className={styles.subTitle}>Quinta da Bichinha</h3>
       </div>
-      <CountdownTimer className={styles.countdownContainer}/>
+      <CountdownTimer />
     </section>
   );
 }
