@@ -44,4 +44,9 @@
   .line {
     display: none;
   }
+
+  .title {
+    font-size: 2rem;
+    line-height: 1rem;
+  }
 }
