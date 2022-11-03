@@ -1,16 +1,13 @@
 .countdown {
   display: flex;
   flex-direction: row;
-  gap: 1rem;
-  margin-top: auto;
-  margin-bottom: 2rem;
+  gap: 0.5rem;
 }
 
 .text {
-    font-size: 1.25rem;
-    line-height: 2rem;
-    letter-spacing: 0.15rem;
-    font-weight: 100;
+  font-size: 1rem;
+  line-height: 2rem;
+  font-weight: 100;
 }
 
 .countdownItem {
@@ -22,6 +19,5 @@
 .countdownTitle {
   text-align: center;
   margin: 0;
-  padding-bottom: 1rem;
   font-weight: 100;
 }

@@ -16,45 +16,35 @@ function calcDiff(currentDateTime, futureDateTime) {
     <div className={styles.countdown}>
       <div className={`${styles.countdownItem} ${styles.text}`}>
         <div>{months.toString().padStart(2, '0').padStart(2, '0')}</div>
-        <div>
-          Meses
-        </div>
+        <div>Meses</div>
       </div>
       <div className={`${styles.countdownItem} ${styles.text}`}>
         <div>:</div>
       </div>
       <div className={`${styles.countdownItem} ${styles.text}`}>
         <div>{days.toString().padStart(2, '0')}</div>
-        <div style={{ color: 'white' }} className="commentFontStyle">
-          Dias
-        </div>
+        <div>Dias</div>
       </div>
       <div className={`${styles.countdownItem} ${styles.text}`}>
         <div>:</div>
       </div>
       <div className={`${styles.countdownItem} ${styles.text}`}>
         <div>{hrs.toString().padStart(2, '0')}</div>
-        <div style={{ color: 'white' }} className="commentFontStyle">
-          Horas
-        </div>
+        <div>Horas</div>
       </div>
       <div className={`${styles.countdownItem} ${styles.text}`}>
         <div>:</div>
       </div>
       <div className={`${styles.countdownItem} ${styles.text}`}>
         <div>{mins.toString().padStart(2, '0')}</div>
-        <div style={{ color: 'white' }} className="commentFontStyle">
-          Minutos
-        </div>
+        <div>Minutos</div>
       </div>
       <div className={`${styles.countdownItem} ${styles.text}`}>
         <div>:</div>
       </div>
       <div className={`${styles.countdownItem} ${styles.text}`}>
         <div>{secs.toString().padStart(2, '0')}</div>
-        <div style={{ color: 'white' }} className="commentFontStyle">
-          Segundos
-        </div>
+        <div>Segundos</div>
       </div>
     </div>
   );
