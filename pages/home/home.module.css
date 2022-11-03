@@ -30,7 +30,7 @@
   margin-top: auto;
 }
 
-.title{
+.title {
   padding: 0;
   margin: 0;
   font-weight: 100;
@@ -42,4 +42,10 @@
   padding-top: 1rem;
   margin: 0;
   font-weight: 100;
+}
+
+@media screen and (max-width: 60rem) {
+  .homeContainer {
+    height: 30rem;
+  }
 }
