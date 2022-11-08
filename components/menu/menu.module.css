@@ -56,9 +56,9 @@
 
 .burger {
   position: fixed;
-  top: 3.7rem;
+  top: 3.6rem;
   right: 1.5rem;
-  font-size: 1.5rem;
+  font-size: 2rem;
   z-index: 1000;
   cursor: pointer;
   display: none;
@@ -81,7 +81,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-bottom: 10rem;
 }
 
 .burgerMenuClosed {
