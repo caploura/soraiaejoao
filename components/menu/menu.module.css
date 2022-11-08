@@ -98,22 +98,22 @@
 @keyframes open-anim {
   0% {
     width: 0;
-    height: 100vh;
+    height: 100%;
   }
   100% {
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
   }
 }
 
 @keyframes close-anim {
   0% {
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
   }
   100% {
     width: 0;
-    height: 100vh;
+    height: 100%;
   }
 }
 
