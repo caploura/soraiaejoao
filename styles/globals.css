@@ -8,6 +8,7 @@ body {
   display: block;
   width: 100%;
   max-width: 70rem;
+  height: -webkit-fill-available;
   margin-left: auto !important;
   margin-right: auto !important;
   overflow-x: hidden !important;
