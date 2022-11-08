@@ -8,11 +8,11 @@ body {
   display: block;
   width: 100%;
   max-width: 70rem;
-  min-height: -webkit-fill-available;
+  height: -webkit-fill-available;
   margin-left: auto !important;
   margin-right: auto !important;
   overflow-x: hidden !important;
-  background-color: #f6f6f6;
+  background-color: var(--background-color);
 }
 
 a {
@@ -33,6 +33,7 @@ section {
 
 :root {
   --primary-color: #a47148;
+  --background-color: #f6f6f6;
 }
 
 @media screen and (min-width: 59rem) {
