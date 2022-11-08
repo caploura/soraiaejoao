@@ -38,7 +38,7 @@ export default function Menu() {
         <div className={styles.subTitleLine} />
         <div onClick={() => setMenuState({ open: !menuState.open })}>
           {!menuState.open && <FiMenu className={styles.burger} />}
-          {menuState.open && <MdOutlineClose className={`${styles.burger} ${styles.burgerOpened}`} />}
+          {menuState.open && <MdOutlineClose className={styles.burger} />}
         </div>
         <div className={styles.navigationContainer}>
           <div className={styles.line} />

@@ -65,10 +65,6 @@
   color: var(--primary-color);
 }
 
-.burgerOpened {
-  color: white;
-}
-
 .burgerMenu {
   position: absolute;
   background-color: var(--background-color);
