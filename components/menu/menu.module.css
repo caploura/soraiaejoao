@@ -131,6 +131,7 @@
 
   .navigationContainer {
     display: none;
+    gap: 2.5rem;
   }
 
   .burgerMenu {
