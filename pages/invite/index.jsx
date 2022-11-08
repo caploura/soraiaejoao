@@ -11,7 +11,7 @@ export default function InvitePage() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <section>
-        <h1>Convite</h1>
+        <h1 className={styles.title}>Convite</h1>
       </section>
     </div>
   );

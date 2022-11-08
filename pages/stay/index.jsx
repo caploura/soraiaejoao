@@ -11,7 +11,7 @@ export default function StayPage() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <section>
-        <h1>Onde Ficar</h1>
+        <h1 className={styles.title}>Onde Ficar</h1>
       </section>
     </div>
   );
