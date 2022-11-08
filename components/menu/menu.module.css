@@ -26,6 +26,16 @@
   width: 10rem;
 }
 
+.subTitleLine {
+  display: none;
+  margin: auto;
+  border: 0;
+  border-bottom: 1px solid #bbb;
+  padding-top: 1.5rem;
+  width: 80%;
+  color: var(--primary-color);
+}
+
 .menuItem {
   padding: 1rem;
   border-radius: 3px;
@@ -46,8 +56,8 @@
 
 .burger {
   position: fixed;
-  top: 3.5rem;
-  right: 3rem;
+  top: 3.6rem;
+  right: 1.5rem;
   font-size: 2rem;
   z-index: 1000;
   cursor: pointer;
@@ -127,5 +137,9 @@
 
   .burgerMenu {
     display: flex;
+  }
+
+  .subTitleLine {
+   display: inherit; 
   }
 }

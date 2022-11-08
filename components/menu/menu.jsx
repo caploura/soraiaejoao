@@ -35,6 +35,7 @@ export default function Menu() {
     <nav>
       <section>
         <h1 className={styles.title}>Soraia & João</h1>
+        <div className={styles.subTitleLine} />
         <div onClick={() => setMenuState({ open: !menuState.open })}>
           {!menuState.open && <FiMenu className={styles.burger} />}
           {menuState.open && <MdOutlineClose className={`${styles.burger} ${styles.burgerOpened}`} />}
