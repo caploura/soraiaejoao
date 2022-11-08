@@ -71,7 +71,7 @@
 
 .burgerMenu {
   position: absolute;
-  background-color: black;
+  background-color: var(--primary-color);
   top: 0;
   right: 0;
   z-index: 999;
