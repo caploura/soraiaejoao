@@ -1,8 +1,18 @@
+import Head from 'next/head'
+
 import styles from './stay.module.css';
 
-export default function HomePage() {
+export default function StayPage() {
   return (
-    <section>
-    </section>
+    <div>
+      <Head>
+        <title>Soraia & João - Onde ficar</title>
+        <meta name="description" content="Casamento Soraia & João" />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
+      <section>
+        <h1>Onde Ficar</h1>
+      </section>
+    </div>
   );
 }

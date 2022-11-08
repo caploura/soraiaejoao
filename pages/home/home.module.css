@@ -21,16 +21,13 @@
   justify-content: center;
   gap: 3rem;
 
+  /* margin: 2rem; */
+
   color: white;
   font-size: 1.25rem;
   line-height: 2rem;
   letter-spacing: 0.15rem;
 }
-/* 
-.homeContainer > div {
-  margin-bottom: auto;
-  margin-top: auto;
-} */
 
 .title {
   padding: 0;

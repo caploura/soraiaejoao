@@ -1,3 +1,32 @@
 .title {
-    text-align: center;
+  text-align: center;
+}
+
+.form {
+  max-width: 65%;
+  margin: auto;
+}
+
+.formRow {
+  padding: 1rem;
+}
+
+.multiFieldRow {
+  display: flex;
+}
+
+.multiFieldRow > * + * {
+  padding-left: 0.5rem;
+}
+
+.textarea {
+  resize: none;
+  width: 100%;
+  height: 4rem;
+}
+
+@media (max-width: 60rem) {
+  .form {
+    max-width: 85%;
+  }
 }
