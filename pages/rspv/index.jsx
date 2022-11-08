@@ -47,6 +47,7 @@ export default function RSPVPage() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <section>
+        <h1 className={styles.title}>Confirma a tua presença!</h1>
         <form className={styles.form} onSubmit={handleSubmit}>
           <div className={`${styles.formRow} ${styles.multiFieldRow}`}>
             <FormControl controlid="firstName" fullWidth>
@@ -68,7 +69,7 @@ export default function RSPVPage() {
             </FormControl>
           </div>
           <div className={styles.formRow}>
-            <Button className={styles.contactUsButton} variant={`${isSubmitAvailable() ? 'contained' : 'outlined'}`} size="medium" type="submit">
+            <Button className={styles.contactUsButton} variant={'contained'} disabled={!isSubmitAvailable()} size="medium" type="submit">
               Enviar
             </Button>
           </div>
