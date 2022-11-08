@@ -18,7 +18,7 @@
   gap: 2rem;
   justify-content: center;
   align-items: center;
-  overflow: hidden;
+  overflow-y: hidden !important;
 }
 
 .line {
