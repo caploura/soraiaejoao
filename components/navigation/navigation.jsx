@@ -7,28 +7,16 @@ import { MdOutlineClose } from 'react-icons/md';
 function MenuItems() {
   return (
     <div className={styles.menuItems}>
-      <a
-        href="#"
-        className={styles.menuItem}
-      >
+      <a href="#" className={styles.menuItem}>
         Início
       </a>
-      <a
-        href="#"
-        className={styles.menuItem}
-      >
+      <a href="#" className={styles.menuItem}>
         Convite
       </a>
-      <a
-        href="#"
-        className={styles.menuItem}
-      >
+      <a href="#" className={styles.menuItem}>
         Onde Ficar
       </a>
-      <a
-        href="#"
-        className={styles.menuItem}
-      >
+      <a href="#" className={styles.menuItem}>
         RSPV
       </a>
     </div>
@@ -47,22 +35,11 @@ export default function Navigation() {
     <div>
       <div onClick={() => setMenuState({ open: !menuState.open })}>
         {!menuState.open && <FiMenu className={styles.burger} />}
-        {menuState.open && (
-          <MdOutlineClose
-            className={`${styles.burger} ${styles.burgerOpened}`}
-          />
-        )}
+        {menuState.open && <MdOutlineClose className={`${styles.burger} ${styles.burgerOpened}`} />}
       </div>
-      <div
-        className={`${styles.navMenu} ${menuState.classes} ${
-          !menuState.open ? styles.navMenuClose : styles.navMenuOpen
-        } ${menuIndex > -1 ? styles[`navMenu-${menuIndex}`] : ''}`}
-      >
-        <MenuItems/>
-        <div
-          className={styles.menuBackgroundPattern}
-          onMouseOver={() => setMenuIndex(-1)}
-        />
+      <div className={`${styles.navMenu} ${menuState.classes} ${!menuState.open ? styles.navMenuClose : styles.navMenuOpen} ${menuIndex > -1 ? styles[`navMenu-${menuIndex}`] : ''}`}>
+        <MenuItems />
+        <div className={styles.menuBackgroundPattern} onMouseOver={() => setMenuIndex(-1)} />
         <div className={styles.menuBackgroundImage} />
       </div>
     </div>
