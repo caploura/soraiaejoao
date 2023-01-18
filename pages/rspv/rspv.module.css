@@ -21,6 +21,10 @@
   padding-left: 0.5rem !important;
 }
 
+.companySection > * + * {
+  margin-left: 0.5rem !important;
+}
+
 @media (max-width: 60rem) {
   .form {
     max-width: 95%;

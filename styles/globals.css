@@ -12,6 +12,7 @@ body {
   margin-right: auto !important;
   overflow-x: hidden !important;
   background-color: var(--background-color);
+  /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
 }
 
 a {
