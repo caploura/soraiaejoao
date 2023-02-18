@@ -110,12 +110,12 @@ export default function RSPVPage() {
             </FormControl>
           </div>
           <div className={`${styles.companySection} ${styles.formRow}`}>
-            <Button variant={'outlined'} size="small" onClick={handleAddNames} disabled={guests.length === maxGuestsAllowed}>
-              +
+            <Button variant={'text'} size="small" onClick={handleAddNames} disabled={guests.length === maxGuestsAllowed}>
+              Adicionar Acompanhante
             </Button>
-            <Button variant={'outlined'} size="small" onClick={handleRemoveNames} disabled={guests.length === 0}>
-              -
-            </Button>
+            {/* <Button variant={'outlined'} size="small" onClick={handleRemoveNames} disabled={guests.length === 0}>
+              remove
+            </Button> */}
           </div>
 
           {guests}
