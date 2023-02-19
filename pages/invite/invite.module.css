@@ -34,5 +34,19 @@
   .inviteSection {
     width: 80%;
     margin: auto; 
+    height: 30rem;
+  }
+
+  .title {
+    font-size: 0.85rem;
+  }
+  
+  .normalText {
+    font-size: 0.85rem;
+  }
+
+  .textSection {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
   }
 }
