@@ -11,7 +11,7 @@ function MenuItems() {
         Início
       </a>
       <a href="#" className={styles.menuItem}>
-        Convite
+        Lista de Casamento
       </a>
       <a href="#" className={styles.menuItem}>
         Onde Ficar

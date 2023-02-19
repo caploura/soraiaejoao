@@ -20,7 +20,7 @@ export default function Menu() {
         Início
       </a>
       <a href={'/invite'} className={`${styles.menuItem} ${asPath === '/invite' ? styles.activeMenu : styles.nonActiveMenu}`}>
-        Convite
+        Lista de Casamento
       </a>
       <a href={'/stay'} className={`${styles.menuItem} ${asPath === '/stay' ? styles.activeMenu : styles.nonActiveMenu}`}>
         Onde Ficar
