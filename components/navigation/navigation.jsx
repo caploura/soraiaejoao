@@ -17,7 +17,7 @@ function MenuItems() {
         Onde Ficar
       </a>
       <a href="#" className={styles.menuItem}>
-        RSPV
+        RSVP
       </a>
     </div>
   );
