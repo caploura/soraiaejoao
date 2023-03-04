@@ -15,7 +15,9 @@
 .hotelText {
   text-align: center;
   font-weight: 200;
-  color: var(--primary-color)
+  color: var(--primary-color);
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .hotelContainer {
