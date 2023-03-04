@@ -14,7 +14,7 @@
 
 .hotelText {
   text-align: center;
-  font-weight: 200;
+  font-weight: 300;
   color: var(--primary-color);
   padding-left: 1rem;
   padding-right: 1rem;
@@ -37,6 +37,7 @@
 }
 
 .multiIconsContainer {
+  padding-top: 1rem;
   display: flex;
   flex-direction: column;
   gap: 0.5rem
