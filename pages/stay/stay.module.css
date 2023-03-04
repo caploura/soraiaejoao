@@ -3,3 +3,49 @@
   font-weight: 100;
   color: var(--primary-color);
 }
+
+.hotelImage {
+  display: block;
+  width: 35%;
+  height: auto;
+  margin: auto;
+  border-radius: 0.25rem;
+}
+
+.hotelText {
+  text-align: center;
+  font-weight: 200;
+  color: var(--primary-color)
+}
+
+.hotelContainer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.iconContainer {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem
+}
+
+.distanceIcon {
+  font-size: 1.5rem;
+}
+
+.multiIconsContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem
+}
+
+@media screen and (max-width: 60rem) {
+  .hotelImage {
+    display: block;
+    width: 90%;
+    height: auto;
+    margin: auto;
+    border-radius: 0.25rem;
+  }
+}
